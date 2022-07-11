@@ -1,3 +1,5 @@
+//CHALLENGE 1
+
 //Mark 1
 //let marksWeight = 78;
 //let marksHeight = 1.69;
@@ -24,8 +26,10 @@ let johnsBmi = 92 / (1.95 * 1.95);
 let markHigherBmi = marksBmi > johnsBmi;
 //console.log(markHigherBmi);
 
+//CHALLENGE 2
+
 if (marksBmi > johnsBmi) {
-  console.log(`Mark's BMI (${marksBmi}) is higher than John's!`);
+  console.log(`Mark's BMI (${marksBmi}) is higher than John's (${johnsBmi})!`);
 } else {
-  console.log(`John's BMI (${johnsBmi}) is higher than Mark's!`);
+  console.log(`John's BMI (${johnsBmi}) is higher than Mark's (${marksBmi})!`);
 }
